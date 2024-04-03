@@ -11,9 +11,9 @@ const Product = ({ name, price, image, description, coins }) => {
 			<h3>{name}</h3>
 			<p>₹{price}</p>
 			<p>{description}</p>
-			<p>{coins}</p>
-			<button>Buy</button>
-			<button>Redeem</button>
+			<p>{coins} coins</p>
+			<button className="buy">Buy</button>
+			<button className="redeem">Redeem</button>
 		</div>
 	);
 };

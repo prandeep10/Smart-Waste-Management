@@ -182,6 +182,21 @@ body {
 	height: 300px;
 }
 
+.product{
+	margin: 1.25rem;
+	gap: 0.625rem;
+}
+
+.buy,.redeem{
+  background-color: #58f96b;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  margin-right: 0.625rem;
+  font-size: medium;
+}
 /* End Main  */
 
 /* Medium <= 992px */
@@ -206,6 +221,17 @@ body {
 	.sidebar-title > span {
 		display: inline;
 	}
+
+	.product {
+		margin: 1.25rem;
+		gap: 0.625rem;
+	  }
+	
+	  .buy,
+	  .redeem {
+		padding: 0.625rem 1.25rem;
+		font-size: large;
+	  }
 }
 /* Small <= 768px */
 
@@ -220,6 +246,17 @@ body {
 		grid-template-columns: 1fr;
 		margin-top: 30px;
 	}
+
+	.product {
+		margin: 0.9375rem;
+		gap: 0.5rem;
+	  }
+	
+	  .buy,
+	  .redeem {
+		padding: 0.5rem 0.9375rem;
+		font-size: medium;
+	}
 }
 
 /* Extra Small <= 576px */
@@ -227,5 +264,16 @@ body {
 @media screen and (max-width: 576px) {
 	.hedaer-left {
 		display: none;
+	}
+
+	.product {
+		margin: 0.625rem;
+		gap: 0.3125rem;
+	  }
+	
+	  .buy,
+	  .redeem {
+		padding: 0.3125rem 0.625rem;
+		font-size: small;
 	}
 }
