@@ -9,7 +9,7 @@ const products = [
 		name: "Hand bag",
 		price: 100,
 		image: bag,
-		description: "Eco Friendly Handmade bag",
+		description: "Eco Friendly Hand bag",
 		coins: 100,
 	},
 	{
