@@ -11,6 +11,6 @@ const getSmartDustbinStatus = async (req, res) => {
     }
 };
 
-modules.exports = {
+module.exports = {
     getSmartDustbinStatus
 }
