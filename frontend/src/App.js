@@ -29,7 +29,7 @@ const App = () => {
           <Route path="/smart-dustbins" element={<SmartDustbin/>} />
           <Route path="/recycle-centers" element={<RecycleCenters/>} />
           {/* <Route path="/suppliers" element={<Suppliers />} /> */}
-          {/* <Route path="/user" element={<User />} /> */}
+          <Route path="/user" element={<User />} />
           {/* <Route path="/reports" element={<Reports />} /> */}
           {/* <Route path="/settings" element={<Settings />} /> */}
         </Routes>
