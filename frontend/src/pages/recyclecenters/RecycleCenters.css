@@ -1,0 +1,32 @@
+.recycle-centers {
+    margin: 20px;
+  }
+  
+  .recycle-centers h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recycle-centers ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recycle-centers li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .center-info {
+    flex: 1;
+  }
+  
+  .center-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

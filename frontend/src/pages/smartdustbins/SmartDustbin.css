@@ -1,0 +1,34 @@
+/* SmartDustbin.css */
+.leaflet-container {
+    height: 100vh;
+    width: 100%;
+   }
+   
+   .leaflet-popup-content-wrapper,
+   .leaflet-popup-tip {
+    background: #f9f9f9;
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+   }
+   
+   .leaflet-popup-content-wrapper a {
+    color: #333;
+   }
+   
+   .leaflet-popup-content-wrapper a:hover {
+    color: #007bff;
+   }
+   
+   .leaflet-popup-content {
+    margin: 15px 20px;
+    line-height: 1.4;
+   }
+
+   .custom-icon .fa-icon {
+    font-size: 24px; /* Adjust size as needed */
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+   }
+
+   .custom-icon {
+    font-size: 62px}
